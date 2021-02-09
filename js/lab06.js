@@ -1,5 +1,6 @@
 
-   
+   function buyDough ()
+   {
        var DoughTyp = prompt("Pink or Yellow Glazed Doughnut?", 'pink');
    
        while(DoughTyp !== "pink" && DoughTyp !== "yellow")
@@ -33,5 +34,6 @@
    
        document.write(picturesArray);
    
+    }
 
-
+    buyDough ();
